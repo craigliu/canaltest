@@ -1,4 +1,4 @@
-#启动
+#### 运行说明
 1. docker-compose up -d 启动容器，mysql已经打开了binlog。mysql用户名admin密码password。执行sql检查binlog时候开启:
 ```sql
 show variables like '%log_bin%'
